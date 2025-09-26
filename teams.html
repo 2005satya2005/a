@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime Feature Card</title>
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-image: url(bg6.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 40px;
+      color: white;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: chartreuse;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 300px;
+      border-radius: 12px;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgb(159, 228, 212);
+      transition: transform 0.3s;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-content h3 {
+      color: crimson;
+    }
+    .card-content p {
+      color: #ffac5f;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .card-content a {
+      margin-top: 10px;
+      padding: 10px;
+      text-align: center;
+      background-color: crimson;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .card-content a:hover {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Anime Feature Card</h1>
+  <div class="container">
+    <div class="card">
+      <img src="sukuna-mischievous-smile-colorful-desktop-wallpaper.jpg" alt="Sukuna">
+      <div class="card-content">
+        <h3>Sukuna</h3>
+        <p>Sukuna, also known as Ryomen Sukuna, is a powerful character in Jujutsu Kaisen.</p>
+        <a href="https://jujutsu-kaisen.fandom.com/wiki/Ryomen_Sukuna" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="happy-itachi-uchiha-red-naruto-desktop-wallpaper.jpg" alt="Itachi Uchiha">
+      <div class="card-content">
+        <h3>Itachi Uchiha</h3>
+        <p>Itachi was a prodigy of the Uchiha clan, known for his skills and intelligence.</p>
+        <a href="https://naruto.fandom.com/wiki/Itachi_Uchiha" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="naruto-classic-surfing-wave-manga-style-desktop-wallpaper-4k.jpg" alt="Naruto Uzumaki">
+      <div class="card-content">
+        <h3>Naruto Uzumaki</h3>
+        <p>Naruto was born with Kurama sealed inside him — a powerful tailed beast.</p>
+        <a href="https://naruto.fandom.com/wiki/Naruto_Uzumaki" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="gojo-cool-jujutsu-kaisen-anime-wallpaper-4k.jpg" alt="Gojo Satoru">
+      <div class="card-content">
+        <h3>Gojo Satoru</h3>
+        <p>Gojo is the strongest Jujutsu Sorcerer, with Limitless Technique and Six Eyes.</p>
+        <a href="https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="kakashi-naruto-shadow-mode-desktop-wallpaper-4k.jpg" alt="Kakashi Hatake">
+      <div class="card-content">
+        <h3>Kakashi Hatake</h3>
+        <p>Kakashi is one of the most iconic characters in Naruto, created by Kishimoto.</p>
+        <a href="https://naruto.fandom.com/wiki/Kakashi_Hatake" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="madara-uchiha-blue-flame-intense-glare-desktop-wallpaper-4K.jpg" alt="Madara Uchiha">
+      <div class="card-content">
+        <h3>Madara Uchiha</h3>
+        <p>Madara was the legendary leader of the Uchiha Clan with immense power.</p>
+        <a href="https://naruto.fandom.com/wiki/Madara_Uchiha" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="attack-on-titan-levi-ackerman-serene-portrait-desktop-wallpaper.jpg" alt="Levi Ackerman">
+      <div class="card-content">
+        <h3>Levi Ackerman</h3>
+        <p>Levi is a skilled fighter in Attack on Titan, known for his speed and precision.</p>
+        <a href="https://attackontitan.fandom.com/wiki/Levi_Ackerman" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="attack-on-titan-eren-yeager-peace-sign-desktop-wallpaper.jpg" alt="Eren Yeager">
+      <div class="card-content">
+        <h3>Eren Yeager</h3>
+        <p>Eren is the protagonist of Attack on Titan, wielding the power of Titans.</p>
+        <a href="https://attackontitan.fandom.com/wiki/Eren_Yeager" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="tanjiro-kitchen-light-scene-desktop-wallpaper-4k.jpg" alt="Tanjiro Kamado">
+      <div class="card-content">
+        <h3>Tanjiro Kamado</h3>
+        <p>Tanjiro is the kind-hearted Demon Slayer with strong resolve and empathy.</p>
+        <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Tanjiro_Kamado" target="_blank">Know More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="demon-slayer-nezuko-determined-look-wallpaper-4k.jpg" alt="Nezuko Kamado">
+      <div class="card-content">
+        <h3>Nezuko Kamado</h3>
+        <p>Nezuko is Tanjiro's sister, turned demon but fights to protect humans.</p>
+        <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Nezuko_Kamado" target="_blank">Know More</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
