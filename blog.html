@@ -74,11 +74,148 @@
 
         <!-- Team Start Start -->
 <!-- Teams & Players Section Start -->
+     <h2 class="section-title">‎ </h2>
+    <h2 class="section-title">‎ </h2>
+
+ <center>
+<a class="section-title">Matches Schedule</a>
+<div class="section-underline"></div>
+</center>
+
+<div class="schedule-container">
+
+
+</div>
+<div class="match-card">
+    <div class="match-header">
+      <div class="match-info">
+        <span class="match-number">Match: 2</span> | 
+        <span class="court-number">Court: 1</span> |
+        <span class="category">Category: Senior</span> |
+        <span class="Player">Players: fdsgs,dsdsf,fdsdfd,dsgdfdsdsfsdfds</span>
+      </div>
+      <div class="time">26 Sept, 6:00 PM</div>
+    </div>
+    <div class="teams">Team C vs Team D</div>
+    <div class="result pending">Result: Pending</div>
+  </div>
+
+</div>
+
+
+
+
+  
+
+<style>
+/* Container as grid */
+
+.section-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #f28b00 ;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .section-underline {
+      width: 80px;
+      height: 4px;
+      background: #f28b00 ;
+      margin: 10px auto 0 auto;
+      border-radius: 2px;
+    }
+
+.schedule-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 2000px;
+  margin: 20px auto;
+}
+
+/* Match card */
+.match-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.match-card:hover {
+  transform: translateY(-3px);
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.teams {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+.time {
+  font-size: 12px;
+  color: #666;
+}
+
+.result {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.result.won {
+  background: #d4edda;
+  color: #155724;
+}
+
+.result.lost {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.result.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.match-info {
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+.match-number {
+  color: #f6466c; /* orange highlight */
+}
+
+.court-number {
+  color: #f28b00; /* blue highlight */
+}
+ .category {
+  color: #007bff; /* blue highlight */
+}
+ .player {
+  color: #ed1111; /* blue highlight */
+}
+
+</style>
+
 
 <div class="team-section py-5">
   <div class="container text-center mb-5">
     <h2 class="section-title">‎ </h2>
-    <h3 class="section-title">Teams of 2k25</h3>
+    <h3 class="section-title">2k25 Teams</h3>
     <div class="section-underline"></div>
   </div>
 
@@ -218,7 +355,7 @@
     .section-title {
       font-size: 2.2rem;
       font-weight: 700;
-      color: ##f6466c ;
+      color: #f28b00 ;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
@@ -226,13 +363,13 @@
     .section-underline {
       width: 80px;
       height: 4px;
-      background: #f6466c ;
+      background: #f28b00 ;
       margin: 10px auto 0 auto;
       border-radius: 2px;
     }
 
     .team-card {
-      background: #f28b00;
+      background: #f6466c;
       border-radius: 15px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.1);
       padding: 25px;
@@ -247,7 +384,7 @@
     .team-name {
       font-size: 1.6rem;
       font-weight: 700;
-      color: #f6466c ;
+      color: #fff ;
       text-align: center;
       margin-bottom: 15px;
     }
@@ -258,7 +395,7 @@
     }
 
     .players-list li {
-      background: #f0f8ff;
+      background: #ffff;
       margin: 8px 0;
       padding: 12px 15px;
       border-radius: 10px;
@@ -276,11 +413,14 @@
     }
 
     .players-list li:hover {
-      background: #d9ebff;
+      background: #f3ff84;
       transform: scale(1.02);
     }
   </style>
 </div>
+
+
+
 <!-- Teams & Players Section End -->
 
         <!-- Team End -->
